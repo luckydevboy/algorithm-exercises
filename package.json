@@ -1,0 +1,15 @@
+{
+  "name": "algorithm-exercises",
+  "version": "1.0.0",
+  "description": "Exercises and Assignments for Algorithm Session in DigiNext Frontend Bootcamp",
+  "main": "BST.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
