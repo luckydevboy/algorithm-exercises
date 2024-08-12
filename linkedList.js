@@ -25,13 +25,28 @@ class LinkedList {
   clear() {
     this.head = null;
   }
+
+  getLast() {
+    let lastNode = this.head;
+
+    if (lastNode) {
+      while (lastNode.next) {
+        lastNode = lastNode.next;
+      }
+    }
+    return lastNode;
+  }
+
+  getFirst() {
+    return this.head;
+  }
 }
 
 let node1 = new ListNode(2);
 let node2 = new ListNode(3);
 node1.next = node2;
+let node3 = new ListNode(5);
+node2.next = node3;
 
 let list = new LinkedList(node1);
 
-console.log("list:", list);
-console.log("list.size:", list.size());
